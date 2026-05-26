@@ -9,8 +9,7 @@ minima:
   skin: auto
   date_format: "%Y-%m-%d"
 
-author:
-  email: hints@baimuratov.app
+email: hints@baimuratov.app
 
 permalink: /:year/:title/
 timezone: Europe/Moscow
