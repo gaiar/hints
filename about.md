@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Автор: **Gaiar Baimuratov**.
-
 Эти заметки — побочный продукт работы над инфраструктурой и медиа-сервером. Каждый пост описывает одну конкретную проблему, инструменты, которые помогли её решить, и алгоритмы внутри этих инструментов — чтобы в следующий раз не разбираться с нуля.
 
-Контакты: [flibustier@gmail.com](mailto:flibustier@gmail.com)
+Контакты: [hints@baimuratov.app](mailto:hints@baimuratov.app)
