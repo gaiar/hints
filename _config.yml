@@ -1,0 +1,37 @@
+title: Baimuratov Hints
+description: >-
+  Технические хаки, разборы инструментов и подводные камни — кратко и по делу.
+
+url: "https://hints.baimuratov.app"
+
+theme: minima
+minima:
+  skin: auto
+  date_format: "%Y-%m-%d"
+
+author:
+  name: Gaiar Baimuratov
+  email: flibustier@gmail.com
+
+permalink: /:year/:title/
+timezone: Europe/Moscow
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .gitignore
+  - README.md
