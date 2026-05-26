@@ -4,7 +4,11 @@ title: "Синхронизация субтитров: как мы почини�
 date: 2026-05-26 21:30:00 +0300
 categories: [media, subtitles]
 tags: [ffsubsync, alass, opensubtitles, plex, jekyll, vad]
+lang: ru
+permalink: /2026/studio-60-subtitle-sync/
 ---
+
+*[Read in English](/en/2026/studio-60-subtitle-sync/)*
 
 История одной задачи и разбор инструментов: **ffsubsync**, **alass**, OpenSubtitles API, а также внутренних алгоритмов (FFT кросс-корреляция vs. динамическое программирование).
 
