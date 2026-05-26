@@ -3,16 +3,17 @@
 
 @import "{{ site.theme }}";
 
+/* Language badges */
 .lang-badge {
   display: inline-block;
-  padding: 1px 7px;
-  margin-left: 6px;
-  font-size: 0.72em;
-  font-weight: 600;
-  letter-spacing: 0.05em;
+  padding: 2px 8px;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   border-radius: 3px;
   vertical-align: middle;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.4;
 }
 
 .lang-badge--ru {
@@ -25,12 +26,38 @@
   color: #fff;
 }
 
-.post-list .lang-badge {
-  margin-left: 8px;
+/* Post list layout */
+.post-list > li {
+  margin-bottom: 32px;
 }
 
+.post-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.post-meta-row .post-meta {
+  font-size: 0.85em;
+  color: #828282;
+}
+
+.post-list-title {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.post-list-title a {
+  text-decoration: none;
+}
+
+.post-list-title a:hover {
+  text-decoration: underline;
+}
+
+/* Post header */
 .post-header .lang-badge {
   display: inline-block;
-  margin: 0 0 8px 0;
-  font-size: 0.7em;
+  margin-bottom: 10px;
 }

@@ -15,13 +15,13 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
         {%- assign post_lang = post.lang | default: "en" | upcase -%}
-        <span class="lang-badge lang-badge--{{ post_lang | downcase }}">{{ post_lang }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+        <div class="post-meta-row">
+          <time class="post-meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time>
+          <span class="lang-badge lang-badge--{{ post_lang | downcase }}">{{ post_lang }}</span>
+        </div>
+        <h3 class="post-list-title">
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
