@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-/* Language badges */
+/* === Language badges === */
 .lang-badge {
   display: inline-block;
   padding: 2px 8px;
@@ -26,7 +26,7 @@
   color: #fff;
 }
 
-/* Post list layout */
+/* === Post list layout === */
 .post-list > li {
   margin-bottom: 32px;
 }
@@ -34,7 +34,7 @@
 .post-meta-row {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 4px;
 }
 
@@ -45,7 +45,7 @@
 
 .post-list-title {
   margin: 0;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .post-list-title a {
@@ -56,28 +56,29 @@
   text-decoration: underline;
 }
 
-/* Post header */
+/* === Post header === */
 .post-header .lang-badge {
   display: inline-block;
   margin-bottom: 10px;
 }
 
-/* Site nav: ensure visible spacing between links */
+/* === Site navigation === */
 .site-nav .trigger {
-  display: flex;
-  gap: 18px;
+  display: inline-flex;
+  gap: 20px;
   align-items: center;
 }
 
 .site-nav .page-link {
   color: #424242;
   line-height: 1.5;
+  margin-left: 0 !important;
 }
 
 @media screen and (max-width: 600px) {
   .site-nav .trigger {
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
+    gap: 10px;
   }
 }
